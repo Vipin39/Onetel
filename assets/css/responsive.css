@@ -1,0 +1,352 @@
+
+/* -------------------- for tablet ----------------- */
+
+@media (max-width : 1024px){
+
+    .header-box{
+        background-position: 0 -20px;
+    }
+
+    .navigation-box .fixed-box, 
+    .about-wrapper .startup-box , 
+    .portfolio-wrapper .project-box,
+    .contactus-section .inner-box,
+    footer .fixed-box {
+        max-width : 890px ;
+    }
+
+    .navigation-box .fixed-box {
+        /* background-color: aliceblue; */
+        display : flex ;
+        flex-wrap : wrap ;
+        justify-content : center ;
+    }
+
+    .navigation .navigation--menu{
+        width : 40% ;
+    }
+
+
+    .about-wrapper .services {
+        max-width : 920px ; 
+        
+    }
+
+    .services .services--cards {
+        width : 29% ;
+        padding-right : 2% ;
+        padding-bottom : 48px ;
+        padding-left : 2% ;
+    }
+
+    .services--cards h2{
+        font-size : 1.8rem ;
+        font-weight : 700 ;
+    }
+
+    .startup-box .about-info button {
+        margin-top : 20px ;
+    }
+
+    .inner-box .contact-box--2 {
+        width : 18% ;
+    }
+}
+
+/* -----------------  for tablet ------------------ */
+
+@media (max-width : 768px){
+
+    .header-box {
+        background-size : cover ;
+        background-position : left 68px ;
+    }
+
+    .navigation-box .fixed-box {
+        max-width : 670px
+    }
+
+    .fixed-box .navigation{
+        width : 100% ;
+    }
+
+    .navigation .navigation--menu {
+        width : 52% ;
+    }
+
+    header .banner{
+        padding-bottom : 0 ;
+        margin-top : 222px ;
+    }
+
+    .banner .banner--inner-box {
+        margin-left : 32% ;
+    }
+
+    .banner--inner-box h1{
+        font-size : 2.3rem ;
+        font-weight : 700 ;
+    }
+
+    .about-wrapper .services , 
+    .portfolio-wrapper .project-box ,
+    .contactus-section .inner-box ,
+    footer .fixed-box{
+        max-width : 720px ;
+    }
+
+    .services .services--cards {
+        width : 46% ;
+    }
+
+    .services .services--card-3 {
+        margin-top : 20px ;
+        width : 96% ;
+    }
+
+    .about-wrapper .startup-box {
+        max-width : 705px ;
+    }
+
+    .startup-box img {
+        width : 100% ;
+    }
+
+    .startup-box .about-info {
+        width : 100% ;
+        padding-bottom : 40px ;
+        padding-left : 5% ;
+    }
+
+    .work-box--2 img {
+        width : 50% ;
+    }
+
+    .inner-box .contact-box--2 {
+        width : 22% ;
+    }
+
+    .fixed-box .social-box {
+        width: 40%;
+        margin-right: 8%;
+    }
+
+    .inner-box .contact-box--1 {
+        width : 36% ;
+        padding-left : 2% ;
+    }
+}
+
+/* -----------------  for mobile ------------------ */
+
+@media (max-width : 500px){
+
+    .header-box{
+        background-position : 36% 70px ;
+    }
+
+    .navigation-box .fixed-box {
+        max-width: 446px;
+    }
+
+    .fixed-box .navigation {
+        padding-bottom : 6px ;
+    }
+
+    .navigation .navigation--menu {
+        display : none ;
+    }
+
+    .navigation .hamburger-icon {
+        display : block ;
+        margin-right : 5% ;
+        margin-top : 10px ;
+        border-radius : 2px ;
+        cursor : pointer ;
+    }
+
+    header .banner {
+        max-width : 460px ;
+    }
+
+    .banner .banner--inner-box {
+        width : 100% ;
+        margin-left : 0 ;
+    }
+
+    .banner--inner-box h1{
+        font-size : 2.2rem ;
+    }
+
+    .about-wrapper .services {
+        top : -20px ;
+    }
+
+    .services .services--cards {
+        width : 90% ;
+    }
+
+    .services .services--card-2 {
+        margin-top : 20px ;
+    }
+
+
+    .work-box .work-box--2 {
+        margin-bottom : 5px ;
+    }
+
+    .work-box .work-box--1 .img-1 , 
+    .work-box .work-box--1 .img-2 ,
+    .work-box .work-box--2 .img-4 , 
+    .work-box .work-box--2 .img-5 ,
+    .work-box .work-box--2 .img-6 ,
+    .work-box .work-box--2 .img-7 , 
+    .work-box .work-box--3 .img-8 ,
+    .work-box .work-box--3 .img-9{
+        width : 49% ;
+        filter : none ;
+    }
+
+    .work-box .work-box--1 .img-3 ,
+    .work-box .work-box--3 .img-10 {
+        width : 100% ;
+        margin-top : 8px ;
+        margin-bottom : 4px ;
+        filter : none ;
+    } 
+
+    .work-box .work-box--2 .img-4 ,
+    .work-box .work-box--2 .img-5 {
+        margin-bottom : 8px ;
+        filter : none ;
+    }
+
+    .work-box .work-box--3 .img-8 ,
+    .work-box .work-box--3 .img-9{
+        margin-top : 2px ;
+    }
+
+    .inner-box .contact-box--1 , 
+    .inner-box .contact-box--2 , 
+    .inner-box .contact-box--3{
+        width : 100% ;
+        padding-left : 4% ;
+        padding-bottom : 30px ;
+    }
+
+    .contactus-section .inner-box {
+        padding-bottom : 28px ;
+    }
+
+    footer .fixed-box {
+        max-width : 400px ;
+        /* background-color : red ; */
+
+        display : flex ;
+        justify-content : center ;
+        align-items : center ;
+    }
+
+    .fixed-box .social-box {
+        width : 80% ;
+        margin-top : 20px ;
+    }
+}
+
+/* -----------------  for mobile ------------------  */
+
+@media (max-width : 425px ){
+
+    .header-box{
+        background-position : 36% 70px ;
+    }
+
+    .navigation-box .fixed-box {
+        max-width: 400px;
+    }
+
+    .fixed-box .navigation {
+        padding-bottom : 6px ;
+    }
+
+    .navigation .navigation--menu {
+        display : none ;
+    }
+
+    .navigation .hamburger-icon {
+        cursor : pointer ;
+        font-size : 1.9rem ;
+        margin-top : 15px ;
+    }
+
+    header .banner {
+        max-width : 400px ;
+    }
+
+}
+
+/* -----------------  for mobile ------------------  */
+
+@media (max-width : 375px ){
+
+    .header-box{
+        background-position : 36% 70px ;
+    }
+
+    .navigation-box .fixed-box {
+        max-width: 360px;
+    }
+
+    .fixed-box .navigation {
+        padding-bottom : 6px ;
+    }
+
+    .navigation .navigation--menu {
+        display : none ;
+    }
+
+    header .banner {
+        max-width : 380px ;
+        padding-left : 2% ;
+    }
+
+    .banner--inner-box h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* -----------------  for mobile ------------------  */
+
+@media (max-width : 320px ){
+
+    .header-box{
+        background-position :  40% 60px  ;
+    }
+
+    .navigation-box .fixed-box {
+        max-width: 300px ;
+    }
+
+    .navigation .navigation--menu {
+        display : none ;
+    }
+
+    .navigation .hamburger-icon {
+        padding-top: 2px;
+    }
+
+    header .banner {
+        max-width : 380px ;
+        padding-left : 2% ;
+    }
+
+    .banner--inner-box h1 {
+        font-size: 1.8rem;
+    }
+
+    .fixed-box .social-box {
+        width : 86% ;
+        margin : 20px auto ;
+    }
+}
+
